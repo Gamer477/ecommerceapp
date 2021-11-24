@@ -42,6 +42,7 @@ class LoginView extends GetWidget<AuthViewModel> {
                   ),
                 ),
                 Card(
+                  elevation: 15,
                   color: Color(0xFFFFFFFF),
                   child: Container(
                     padding: EdgeInsets.all(15),
@@ -81,6 +82,7 @@ class LoginView extends GetWidget<AuthViewModel> {
                         CustomTextFormField(
                           text: 'Email',
                           hint: 'ahmedonline75@gmail.com',
+                          hintsize: 16,
                           onSave: (value) {
                             controller.email = value;
                           },

@@ -27,7 +27,7 @@ class CustomTextFormField extends StatelessWidget {
           CustomText(
             text: text,
             fontSize: 16,
-            color: Colors.grey.shade900,
+            color: Colors.grey,
           ),
           TextFormField(
             onSaved: onSave,
